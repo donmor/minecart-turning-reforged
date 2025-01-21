@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[46,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "minecart_turning"
+version = "${version}"
+displayName = "Minecart Turning Reforged"
+authors = ["tildejustin","donmor"]
+description = '''
+MC-201 fix
+'''
+itemIcon = "minecraft:minecart"
+updateJSONURL = "https://raw.githubusercontent.com/donmor/minecart-turning-reforged/refs/heads/master/versions.json"
+#logoFile = ""
+displayTest = "IGNORE_ALL_VERSION"
+
+[[dependencies.minecart_turning]]
+modId = "forge"
+mandatory = true
+versionRange = "[46,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.minecart_turning]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[modproperties.minecart_turning]
+    catalogueImageIcon="assets/minecart_turning/icon.png"
