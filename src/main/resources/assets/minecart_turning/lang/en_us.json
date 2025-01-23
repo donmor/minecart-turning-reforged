@@ -2,5 +2,6 @@
   "minecart-turning.category": "Minecart Turning",
   "minecart-turning.toggle": "Toggle Minecart Turning",
   "minecart-turning.activate": "Following rotation",
-  "minecart-turning.deactivate": "Stopped following rotation"
+  "minecart-turning.deactivate": "Stopped following rotation",
+  "minecart-turning.default": "Default state"
 }

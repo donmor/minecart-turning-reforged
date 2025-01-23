@@ -1,10 +1,11 @@
 {
     "homepage": "https://github.com/donmor/minecart-turning-reforged",
     "1.20.1": {
-      "1.0.0": "Initial release"
+      "1.0.0": "Initial release",
+      "1.1.0": "Auto-rotation state is set to a default value (configurable) on joining a world"
     },
     "promos": {
-      "1.20.1-latest": "1.0.0",
-      "1.20.1-recommended": "1.0.0"
+      "1.20.1-latest": "1.1.0",
+      "1.20.1-recommended": "1.1.0"
     }
   }
